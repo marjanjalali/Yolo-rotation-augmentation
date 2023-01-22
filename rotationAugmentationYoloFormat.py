@@ -87,7 +87,7 @@ class yoloRotate:
         if dy == 0 :
             if dx < 0 :
                 phi = math.pi
-            elif dx >= 0:
+            elif dx > 0:
                 phi = 0
 
         if phi < 0 or dy > 0:

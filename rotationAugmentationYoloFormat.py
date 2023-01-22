@@ -26,11 +26,6 @@ class yoloRotate:
         
         # read image using cv2
         self.image = cv2.imread(self.filename + self.image_ext,1)
-        rotation_angle = self.angle * np.pi/180 # Convert angle(in degree) to radian
-        
-        #define a transformation matrix
-        self.rot_matrix = np.array([[np.cos(rotation_angle),-np.sin(rotation_angle)],
-                                    [np.sin(rotation_angle),np.cos(rotation_angle)]])
 
 
     def cv_to_yolo(self, main_bbox, ht, wd):

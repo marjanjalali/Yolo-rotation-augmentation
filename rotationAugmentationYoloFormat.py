@@ -82,7 +82,7 @@ class yoloRotate:
             elif dy < 0:
                 phi  = math.pi/2
         else :
-            phi = math.atan(dy/-dx)
+            phi = math.atan(-dy/dx)
 
         if dy == 0 :
             if dx < 0 :

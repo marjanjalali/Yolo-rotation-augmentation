@@ -83,16 +83,13 @@ class yoloRotate:
             elif dy < 0:
                 phi  = math.pi/2
         else :
-            phi = math.atan(-dy/dx)
+            phi = math.atan(dy/-dx)
 
-        if dy == 0 :
-            if dx < 0 :
-                phi = math.pi
-            elif dx > 0:
-                phi = 0
-
-        if phi < 0 or dy > 0:
-            phi += math.pi
+        if dx < 0 :
+            if dy <= 0 :
+                phi = math.atan(dy/-dx) + math.pi
+            elif dy > 0:
+                phi = math.atan(dy/-dx) - math.pi
 
         alpha = theta + phi
         dx_n = int(r * math.cos(alpha))# relative to cx , cy

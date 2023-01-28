@@ -6,11 +6,19 @@ The polar coordinates of a point P in a plane specify the distance of the point 
 
 ![Screenshot from 2023-01-23 17-04-15](https://user-images.githubusercontent.com/19527298/214054632-5d5c17c8-21e5-4eb1-9fd0-95ebfe25cb90.png)
 
-One common data augmentation technique is the random rotation of an image which is an affine transformation. Affine transformation is a linear mapping method that preserves the parallelism of lines. The output of rotationAugmentationFromJSONToYoloFormat.py (https://github.com/marjanjalali/Yolo-rotation-augmentation/blob/main/rotationAugmentationFromJSONToYoloFormat.py) shown below:
+One common data augmentation technique is the random rotation of an image which is an affine transformation. Affine transformation is a linear mapping method that preserves the parallelism of lines. The output of the common rotation approache (https://github.com/marjanjalali/Yolo-rotation-augmentation/blob/main/rotationAugmentationYoloFormat.py) shown below:
+
+<p align="center">
+  <img width = 1000 src=https://user-images.githubusercontent.com/19527298/215268193-ffed3f73-0ea2-4a20-97c2-8b002f252977.png>
+</p>
+
+
+The output of rotationAugmentationFromJSONToYoloFormat.py (https://github.com/marjanjalali/Yolo-rotation-augmentation/blob/main/rotationAugmentationFromJSONToYoloFormat.py) shown below:
 
 <p align="center">
   <img width = 1000 src="https://user-images.githubusercontent.com/19527298/214285859-89c712db-7f30-46b1-8393-98d7d7466670.png">
 </p>
+
 
 
 

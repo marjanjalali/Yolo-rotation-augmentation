@@ -19,7 +19,7 @@ The output of rotationAugmentationFromJSONToYoloFormat.py (https://github.com/ma
   <img width = 1000 src="https://user-images.githubusercontent.com/19527298/214285859-89c712db-7f30-46b1-8393-98d7d7466670.png">
 </p>
 
-
+Our rotation data augmentation method is proper for oriented object detection. 
 
 
 
